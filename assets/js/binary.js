@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.12.46","repo":"oggy-250413-2/monkey-platformer"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.2","target":"arcade","targetVersion":"1.12.46","repo":"oggy-250413-2/monkey-platformer"}
 // total=2096845 new=12.23% cached=83.20% other=4.57%
 (function (ectx) {
 'use strict';
@@ -566,7 +566,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P160728(s) {
+function _main___P164509(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1108,35 +1108,35 @@ switch (step) {
   case 52:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile__P160736;
+    s.tmp_0.arg2 = on_overlap_tile__P164517;
     s.callLocIdx = 103; s.pc = 51; return s.tmp_0;
   case 51:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P135435_mk(s);
     s.tmp_0.arg0 = globals.up___135355;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = on_up_pressed__P160748;
+    s.tmp_0.arg2 = on_up_pressed__P164529;
     s.callLocIdx = 107; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P135435_mk(s);
     s.tmp_0.arg0 = globals.B___135353;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = on_b_pressed__P160760;
+    s.tmp_0.arg2 = on_b_pressed__P164541;
     s.callLocIdx = 112; s.pc = 54; return s.tmp_0;
   case 54:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P135435_mk(s);
     s.tmp_0.arg0 = globals.A___135352;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = on_a_pressed__P160778;
+    s.tmp_0.arg2 = on_a_pressed__P164559;
     s.callLocIdx = 120; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P135435_mk(s);
     s.tmp_0.arg0 = globals.left___135354;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = on_left_pressed__P160794;
+    s.tmp_0.arg2 = on_left_pressed__P164575;
     s.callLocIdx = 123; s.pc = 56; return s.tmp_0;
   case 56:
     r0 = s.retval;
@@ -1148,21 +1148,21 @@ switch (step) {
   case 58:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile2__P160803;
+    s.tmp_0.arg2 = on_overlap_tile2__P164584;
     s.callLocIdx = 127; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P135435_mk(s);
     s.tmp_0.arg0 = globals.right___135356;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = on_right_pressed__P160819;
+    s.tmp_0.arg2 = on_right_pressed__P164600;
     s.callLocIdx = 130; s.pc = 59; return s.tmp_0;
   case 59:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P135697_mk(s);
     s.tmp_0.arg0 = globals.Player___135719;
     s.tmp_0.arg1 = 1;
-    s.tmp_0.arg2 = on_on_overlap__P160827;
+    s.tmp_0.arg2 = on_on_overlap__P164608;
     s.callLocIdx = 133; s.pc = 60; return s.tmp_0;
   case 60:
     r0 = s.retval;
@@ -1174,7 +1174,7 @@ switch (step) {
   case 62:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile3__P160841;
+    s.tmp_0.arg2 = on_overlap_tile3__P164622;
     s.callLocIdx = 138; s.pc = 61; return s.tmp_0;
   case 61:
     r0 = s.retval;
@@ -1186,7 +1186,7 @@ switch (step) {
   case 64:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile4__P160854;
+    s.tmp_0.arg2 = on_overlap_tile4__P164635;
     s.callLocIdx = 141; s.pc = 63; return s.tmp_0;
   case 63:
     r0 = s.retval;
@@ -1198,7 +1198,7 @@ switch (step) {
   case 66:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile5__P160863;
+    s.tmp_0.arg2 = on_overlap_tile5__P164644;
     s.callLocIdx = 150; s.pc = 65; return s.tmp_0;
   case 65:
     r0 = s.retval;
@@ -1210,7 +1210,7 @@ switch (step) {
   case 68:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile6__P160882;
+    s.tmp_0.arg2 = on_overlap_tile6__P164663;
     s.callLocIdx = 153; s.pc = 67; return s.tmp_0;
   case 67:
     r0 = s.retval;
@@ -1222,13 +1222,13 @@ switch (step) {
   case 70:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = on_overlap_tile7__P160891;
+    s.tmp_0.arg2 = on_overlap_tile7__P164672;
     s.callLocIdx = 158; s.pc = 69; return s.tmp_0;
   case 69:
     r0 = s.retval;
-    globals.projectile___160762 = (null);
-    globals.mySprite___160751 = (null);
-    globals.score___160812 = (0);
+    globals.projectile___164543 = (null);
+    globals.mySprite___164532 = (null);
+    globals.score___164593 = (0);
     s.tmp_0 = scene_setBackgroundImage__P136124_mk(s);
     s.tmp_1 = helpers_getImageByName__P136575_mk(s);
     s.tmp_1.arg0 = "\n    background\n";
@@ -1260,22 +1260,22 @@ switch (step) {
     s.callLocIdx = 164; s.pc = 75; return s.tmp_0;
   case 75:
     r0 = s.retval;
-    globals.mySprite___160751 = (r0);
+    globals.mySprite___164532 = (r0);
     s.tmp_0 = controller_moveSprite__P135406_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 165; s.pc = 77; return s.tmp_0;
   case 77:
     r0 = s.retval;
     s.tmp_0 = Sprite_ay__P135604_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_0.arg1 = 50;
     s.callLocIdx = 166; s.pc = 78; return s.tmp_0;
   case 78:
     r0 = s.retval;
     s.tmp_0 = scene_cameraFollowSprite__P136129_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.callLocIdx = 167; s.pc = 79; return s.tmp_0;
   case 79:
     r0 = s.retval;
@@ -1283,13 +1283,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P160728.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-background-scroll/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P160728.continuations = [  ]
+_main___P164509.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-background-scroll/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P164509.continuations = [  ]
 
-function _main___P160728_mk(s) {
+function _main___P164509_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P160728, depth: s.depth + 1,
+        parent: s, fn: _main___P164509, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2959,7 +2959,7 @@ function myImages_inline__P141099_mk(s) {
 
 
 
-function on_overlap_tile__P160736(s) {
+function on_overlap_tile__P164517(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2995,12 +2995,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile__P160736.info = {"start":82,"length":180,"line":2,"column":7,"endLine":7,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile","argumentNames":["sprite","location"]}
+on_overlap_tile__P164517.info = {"start":82,"length":180,"line":2,"column":7,"endLine":7,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile","argumentNames":["sprite","location"]}
 
-function on_overlap_tile__P160736_mk(s) {
+function on_overlap_tile__P164517_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile__P160736, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile__P164517, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3012,7 +3012,7 @@ function on_overlap_tile__P160736_mk(s) {
 
 
 
-function on_up_pressed__P160748(s) {
+function on_up_pressed__P164529(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3023,13 +3023,13 @@ switch (step) {
   case 0:
 
     s.tmp_0 = simplified_gravity_jump__P137805_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_0.arg1 = 50;
     s.callLocIdx = 104; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = animation_runImageAnimation__P136601_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_1 = helpers_getAnimationByName__P136576_mk(s);
     s.tmp_1.arg0 = "\n        jump\n    ";
     s.callLocIdx = 105; s.pc = 3; return s.tmp_1;
@@ -3045,12 +3045,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_up_pressed__P160748.info = {"start":317,"length":162,"line":8,"column":53,"endLine":13,"endColumn":1,"fileName":"main.ts","functionName":"on_up_pressed","argumentNames":[]}
+on_up_pressed__P164529.info = {"start":317,"length":162,"line":8,"column":53,"endLine":13,"endColumn":1,"fileName":"main.ts","functionName":"on_up_pressed","argumentNames":[]}
 
-function on_up_pressed__P160748_mk(s) {
+function on_up_pressed__P164529_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_up_pressed__P160748, depth: s.depth + 1,
+        parent: s, fn: on_up_pressed__P164529, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3060,7 +3060,7 @@ function on_up_pressed__P160748_mk(s) {
 
 
 
-function on_b_pressed__P160760(s) {
+function on_b_pressed__P164541(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3071,24 +3071,24 @@ switch (step) {
   case 0:
 
     s.tmp_0 = sprites_createProjectileFromSprite__P135520_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex160766);
+    r0 = pxsim.image.ofBuffer(_hex164547);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.mySprite___160751;
+    s.tmp_0.arg1 = globals.mySprite___164532;
     s.tmp_0.arg2 = 0;
     s.tmp_0.arg3 = 0;
     s.callLocIdx = 108; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    globals.projectile___160762 = (r0);
+    globals.projectile___164543 = (r0);
     s.tmp_0 = Sprite_setFlag__P135658_mk(s);
-    s.tmp_0.arg0 = globals.projectile___160762;
+    s.tmp_0.arg0 = globals.projectile___164543;
     s.tmp_0.arg1 = 2048;
     s.tmp_0.arg2 = true;
     s.callLocIdx = 109; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = animation_runImageAnimation__P136601_mk(s);
-    s.tmp_0.arg0 = globals.projectile___160762;
+    s.tmp_0.arg0 = globals.projectile___164543;
     s.tmp_1 = helpers_getAnimationByName__P136576_mk(s);
     s.tmp_1.arg0 = "\n        splode\n    ";
     s.callLocIdx = 110; s.pc = 4; return s.tmp_1;
@@ -3104,23 +3104,23 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_b_pressed__P160760.info = {"start":533,"length":1110,"line":14,"column":52,"endLine":38,"endColumn":1,"fileName":"main.ts","functionName":"on_b_pressed","argumentNames":[]}
+on_b_pressed__P164541.info = {"start":533,"length":1110,"line":14,"column":52,"endLine":38,"endColumn":1,"fileName":"main.ts","functionName":"on_b_pressed","argumentNames":[]}
 
-function on_b_pressed__P160760_mk(s) {
+function on_b_pressed__P164541_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_b_pressed__P160760, depth: s.depth + 1,
+        parent: s, fn: on_b_pressed__P164541, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
 } }
 
-const _hex160766 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex164547 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function on_a_pressed__P160778(s) {
+function on_a_pressed__P164559(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3133,7 +3133,7 @@ switch (step) {
     s.tmp_0 = tiles_setWallAt__P136005_mk(s);
     s.tmp_1 = tiles_locationInDirection__P137623_mk(s);
     s.tmp_2 = tiles_locationOfSprite__P137606_mk(s);
-    s.tmp_2.arg0 = globals.mySprite___160751;
+    s.tmp_2.arg0 = globals.mySprite___164532;
     s.callLocIdx = 113; s.pc = 3; return s.tmp_2;
   case 3:
     r0 = s.retval;
@@ -3150,7 +3150,7 @@ switch (step) {
     s.tmp_0 = tiles_setTileAt__P136004_mk(s);
     s.tmp_1 = tiles_locationInDirection__P137623_mk(s);
     s.tmp_2 = tiles_locationOfSprite__P137606_mk(s);
-    s.tmp_2.arg0 = globals.mySprite___160751;
+    s.tmp_2.arg0 = globals.mySprite___164532;
     s.callLocIdx = 116; s.pc = 6; return s.tmp_2;
   case 6:
     r0 = s.retval;
@@ -3173,12 +3173,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_a_pressed__P160778.info = {"start":1697,"length":292,"line":39,"column":52,"endLine":44,"endColumn":1,"fileName":"main.ts","functionName":"on_a_pressed","argumentNames":[]}
+on_a_pressed__P164559.info = {"start":1697,"length":292,"line":39,"column":52,"endLine":44,"endColumn":1,"fileName":"main.ts","functionName":"on_a_pressed","argumentNames":[]}
 
-function on_a_pressed__P160778_mk(s) {
+function on_a_pressed__P164559_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_a_pressed__P160778, depth: s.depth + 1,
+        parent: s, fn: on_a_pressed__P164559, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3190,7 +3190,7 @@ function on_a_pressed__P160778_mk(s) {
 
 
 
-function on_left_pressed__P160794(s) {
+function on_left_pressed__P164575(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3201,7 +3201,7 @@ switch (step) {
   case 0:
 
     s.tmp_0 = animation_runImageAnimation__P136601_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_1 = helpers_getAnimationByName__P136576_mk(s);
     s.tmp_1.arg0 = "\n            walk left\n        ";
     s.callLocIdx = 121; s.pc = 2; return s.tmp_1;
@@ -3217,12 +3217,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_left_pressed__P160794.info = {"start":2046,"length":135,"line":45,"column":55,"endLine":49,"endColumn":1,"fileName":"main.ts","functionName":"on_left_pressed","argumentNames":[]}
+on_left_pressed__P164575.info = {"start":2046,"length":135,"line":45,"column":55,"endLine":49,"endColumn":1,"fileName":"main.ts","functionName":"on_left_pressed","argumentNames":[]}
 
-function on_left_pressed__P160794_mk(s) {
+function on_left_pressed__P164575_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_left_pressed__P160794, depth: s.depth + 1,
+        parent: s, fn: on_left_pressed__P164575, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3232,7 +3232,7 @@ function on_left_pressed__P160794_mk(s) {
 
 
 
-function on_overlap_tile2__P160803(s) {
+function on_overlap_tile2__P164584(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3258,18 +3258,18 @@ switch (step) {
     s.callLocIdx = 126; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    r0 = (globals.score___160812 + 1);
-    globals.score___160812 = (r0);
+    r0 = (globals.score___164593 + 1);
+    globals.score___164593 = (r0);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile2__P160803.info = {"start":2264,"length":167,"line":52,"column":7,"endLine":58,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile2","argumentNames":["sprite2","location2"]}
+on_overlap_tile2__P164584.info = {"start":2264,"length":167,"line":52,"column":7,"endLine":58,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile2","argumentNames":["sprite2","location2"]}
 
-function on_overlap_tile2__P160803_mk(s) {
+function on_overlap_tile2__P164584_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile2__P160803, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile2__P164584, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3281,7 +3281,7 @@ function on_overlap_tile2__P160803_mk(s) {
 
 
 
-function on_right_pressed__P160819(s) {
+function on_right_pressed__P164600(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3292,7 +3292,7 @@ switch (step) {
   case 0:
 
     s.tmp_0 = animation_runImageAnimation__P136601_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_1 = helpers_getAnimationByName__P136576_mk(s);
     s.tmp_1.arg0 = "\n            walk right\n        ";
     s.callLocIdx = 128; s.pc = 2; return s.tmp_1;
@@ -3308,12 +3308,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_right_pressed__P160819.info = {"start":2489,"length":137,"line":59,"column":56,"endLine":63,"endColumn":1,"fileName":"main.ts","functionName":"on_right_pressed","argumentNames":[]}
+on_right_pressed__P164600.info = {"start":2489,"length":137,"line":59,"column":56,"endLine":63,"endColumn":1,"fileName":"main.ts","functionName":"on_right_pressed","argumentNames":[]}
 
-function on_right_pressed__P160819_mk(s) {
+function on_right_pressed__P164600_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_right_pressed__P160819, depth: s.depth + 1,
+        parent: s, fn: on_right_pressed__P164600, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3323,7 +3323,7 @@ function on_right_pressed__P160819_mk(s) {
 
 
 
-function on_on_overlap__P160827(s) {
+function on_on_overlap__P164608(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3354,12 +3354,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_on_overlap__P160827.info = {"start":2688,"length":116,"line":64,"column":60,"endLine":67,"endColumn":1,"fileName":"main.ts","functionName":"on_on_overlap","argumentNames":["sprite3","otherSprite"]}
+on_on_overlap__P164608.info = {"start":2688,"length":116,"line":64,"column":60,"endLine":67,"endColumn":1,"fileName":"main.ts","functionName":"on_on_overlap","argumentNames":["sprite3","otherSprite"]}
 
-function on_on_overlap__P160827_mk(s) {
+function on_on_overlap__P164608_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_on_overlap__P160827, depth: s.depth + 1,
+        parent: s, fn: on_on_overlap__P164608, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -3370,7 +3370,7 @@ function on_on_overlap__P160827_mk(s) {
 
 
 
-function on_overlap_tile3__P160841(s) {
+function on_overlap_tile3__P164622(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3406,12 +3406,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile3__P160841.info = {"start":2886,"length":185,"line":70,"column":7,"endLine":75,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile3","argumentNames":["sprite4","location3"]}
+on_overlap_tile3__P164622.info = {"start":2886,"length":185,"line":70,"column":7,"endLine":75,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile3","argumentNames":["sprite4","location3"]}
 
-function on_overlap_tile3__P160841_mk(s) {
+function on_overlap_tile3__P164622_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile3__P160841, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile3__P164622, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3423,7 +3423,7 @@ function on_overlap_tile3__P160841_mk(s) {
 
 
 
-function on_overlap_tile4__P160854(s) {
+function on_overlap_tile4__P164635(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3448,12 +3448,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile4__P160854.info = {"start":3147,"length":111,"line":78,"column":7,"endLine":80,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile4","argumentNames":["sprite5","location4"]}
+on_overlap_tile4__P164635.info = {"start":3147,"length":111,"line":78,"column":7,"endLine":80,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile4","argumentNames":["sprite5","location4"]}
 
-function on_overlap_tile4__P160854_mk(s) {
+function on_overlap_tile4__P164635_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile4__P160854, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile4__P164635, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -3464,7 +3464,7 @@ function on_overlap_tile4__P160854_mk(s) {
 
 
 
-function on_overlap_tile5__P160863(s) {
+function on_overlap_tile5__P164644(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3500,7 +3500,7 @@ switch (step) {
   case 3:
     r0 = s.retval;
     s.tmp_0 = animation_runMovementAnimation__P136602_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     r0 = globals.flyToCenter___136608.fields["pathString"];
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 2000;
@@ -3509,7 +3509,7 @@ switch (step) {
   case 5:
     r0 = s.retval;
     s.tmp_0 = Sprite_say__P135650_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___160751;
+    s.tmp_0.arg0 = globals.mySprite___164532;
     s.tmp_0.arg1 = "Level 2!";
     s.tmp_0.arg2 = 500;
     s.tmp_0.arg3 = 15;
@@ -3521,12 +3521,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile5__P160863.info = {"start":3334,"length":338,"line":83,"column":7,"endLine":92,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile5","argumentNames":["sprite6","location5"]}
+on_overlap_tile5__P164644.info = {"start":3334,"length":338,"line":83,"column":7,"endLine":92,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile5","argumentNames":["sprite6","location5"]}
 
-function on_overlap_tile5__P160863_mk(s) {
+function on_overlap_tile5__P164644_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile5__P160863, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile5__P164644, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3538,7 +3538,7 @@ function on_overlap_tile5__P160863_mk(s) {
 
 
 
-function on_overlap_tile6__P160882(s) {
+function on_overlap_tile6__P164663(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3563,12 +3563,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile6__P160882.info = {"start":3752,"length":108,"line":95,"column":7,"endLine":97,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile6","argumentNames":["sprite7","location6"]}
+on_overlap_tile6__P164663.info = {"start":3752,"length":108,"line":95,"column":7,"endLine":97,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile6","argumentNames":["sprite7","location6"]}
 
-function on_overlap_tile6__P160882_mk(s) {
+function on_overlap_tile6__P164663_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile6__P160882, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile6__P164663, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -3579,7 +3579,7 @@ function on_overlap_tile6__P160882_mk(s) {
 
 
 
-function on_overlap_tile7__P160891(s) {
+function on_overlap_tile7__P164672(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3615,12 +3615,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-on_overlap_tile7__P160891.info = {"start":3940,"length":185,"line":100,"column":7,"endLine":105,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile7","argumentNames":["sprite8","location7"]}
+on_overlap_tile7__P164672.info = {"start":3940,"length":185,"line":100,"column":7,"endLine":105,"endColumn":1,"fileName":"main.ts","functionName":"on_overlap_tile7","argumentNames":["sprite8","location7"]}
 
-function on_overlap_tile7__P160891_mk(s) {
+function on_overlap_tile7__P164672_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: on_overlap_tile7__P160891, depth: s.depth + 1,
+        parent: s, fn: on_overlap_tile7__P164672, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -66933,7 +66933,7 @@ const effects_SceneAnchor__C138798_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["transparency16___137813","tile1___137814","tile17___137818","tile18___137819","tile21___137822","tile5___137821","tile25___137816","tile3___137817","tile2___137815","tile4___137820","mySprite___160751","projectile___160762","score___160812"])
+const breakpoints = setupDebugger(1, ["transparency16___137813","tile1___137814","tile17___137818","tile18___137819","tile21___137822","tile5___137821","tile25___137816","tile3___137817","tile2___137815","tile4___137820","mySprite___164532","projectile___164543","score___164593"])
 
-return _main___P160728
+return _main___P164509
 })
