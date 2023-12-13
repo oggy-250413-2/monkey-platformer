@@ -47,14 +47,12 @@ scene.onOverlapTile(SpriteKind.Projectile, assets.tile`bounce`, function (sprite
     tiles.setTileAt(location7, assets.tile`transparency16`)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    while (controller.left.isPressed()) {
-        animation.runImageAnimation(
-        mySprite,
-        assets.animation`walk left`,
-        150,
-        false
-        )
-    }
+    animation.runImageAnimation(
+    mySprite,
+    assets.animation`walk left`,
+    150,
+    false
+    )
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`orange bauble`, function (sprite2, location2) {
     tiles.setTileAt(location2, assets.tile`transparency16`)
@@ -68,14 +66,12 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite3, o
     info.changeLifeBy(-1)
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
-    while (controller.right.isPressed()) {
-        animation.runImageAnimation(
-        mySprite,
-        assets.animation`walk right`,
-        150,
-        false
-        )
-    }
+    animation.runImageAnimation(
+    mySprite,
+    assets.animation`walk right`,
+    150,
+    false
+    )
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`chest1`, function (sprite6, location5) {
     scene.setBackgroundImage(assets.image`background2`)
